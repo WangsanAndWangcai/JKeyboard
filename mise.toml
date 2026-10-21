@@ -1,0 +1,12 @@
+[tools]
+node = "20.19.5"
+
+[tasks.build]
+description = "Generate PCB / plate outputs with Ergogen"
+dir = "{{config_root}}"
+run = "zsh 002_config/utils/build.zsh"
+
+[tasks.server]
+description = "Preview generated outputs on http://localhost:8000"
+dir = "{{config_root}}"
+run = "zsh 002_config/utils/server.zsh"

@@ -1,0 +1,9 @@
+[submodule "001_ref/ergogen"]
+	path = 001_ref/ergogen
+	url = https://github.com/ergogen/ergogen.git
+[submodule "001_ref/caldera-keyboard"]
+	path = 001_ref/caldera-keyboard
+	url = https://github.com/christianselig/caldera-keyboard.git
+[submodule "001_ref/redox-keyboard"]
+	path = 001_ref/redox-keyboard
+	url = https://github.com/mattdibi/redox-keyboard.git
