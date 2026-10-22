@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="418.313mm" height="140.216mm"
+     viewBox="0 0 418.313 140.216" id="layout-svg"
+     role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">JKeyboard ZMK keymap layout</title>
+  <desc id="svg-desc">Physical board outline with 70 key positions. Black legends are layer 0; blue legends are layer 1. Teal circles mark the eight mounting holes.</desc>
+  <defs>
+    <filter id="key-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0.45" dy="0.75" stdDeviation="0.55" flood-color="#1e293b" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      text { font-family: "Inter", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", "DejaVu Sans", "Noto Sans", Arial, sans-serif; }
+      .l1-label { display: inline; }
+      .trans-mark { display: none; }
+      .key { filter: url(#key-shadow); }
+      .mounting-hole { pointer-events: none; }
+      @media print { .key { filter: none; } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="418.313" height="140.216" fill="#ffffff"/>
+
+  <g id="board">
+    <path d="M 0 95.467 L 0 2 A 2 2 0 0 1 2 0 L 151.271 0 A 2 2 0 0 1 153.271 2 L 153.271 70.555 A 2 2 0 0 0 154.193 72.24 L 178.085 87.528 A 2 2 0 0 1 178.739 90.212 L 150.447 139.216 A 2 2 0 0 1 147.717 139.949 L 110.107 118.297 A 2 2 0 0 0 109.666 118.11 L 79.369 109.329 A 2 2 0 0 0 78.812 109.25 L 73.249 109.25 A 2 2 0 0 0 72.303 109.488 L 68.456 111.552 A 2 2 0 0 1 67.51 111.79 L 57.988 111.79 A 2 2 0 0 0 56.619 112.332 L 53.04 115.693 A 2 2 0 0 1 51.671 116.235 L 6.381 116.235 A 2 2 0 0 1 4.381 114.235 L 4.381 100.166 A 2 2 0 0 0 3.299 98.389 L 1.082 97.244 A 2 2 0 0 1 0 95.467 Z  M 418.313 95.467 L 418.313 2 A 2 2 0 0 0 416.313 0 L 267.041 0 A 2 2 0 0 0 265.041 2 L 265.041 70.555 A 2 2 0 0 1 264.119 72.24 L 240.227 87.528 A 2 2 0 0 0 239.573 90.212 L 267.865 139.216 A 2 2 0 0 0 270.595 139.949 L 308.206 118.297 A 2 2 0 0 1 308.647 118.11 L 338.943 109.329 A 2 2 0 0 1 339.5 109.25 L 345.064 109.25 A 2 2 0 0 1 346.009 109.488 L 349.857 111.552 A 2 2 0 0 0 350.802 111.79 L 360.324 111.79 A 2 2 0 0 1 361.693 112.332 L 365.272 115.693 A 2 2 0 0 0 366.641 116.235 L 411.931 116.235 A 2 2 0 0 0 413.931 114.235 L 413.931 100.166 A 2 2 0 0 1 415.014 98.389 L 417.23 97.244 A 2 2 0 0 0 418.313 95.467 Z " fill="#f7f9fc" stroke="none"/>
+    <path d="M 0 95.467 L 0 2 A 2 2 0 0 1 2 0 L 151.271 0 A 2 2 0 0 1 153.271 2 L 153.271 70.555 A 2 2 0 0 0 154.193 72.24 L 178.085 87.528 A 2 2 0 0 1 178.739 90.212 L 150.447 139.216 A 2 2 0 0 1 147.717 139.949 L 110.107 118.297 A 2 2 0 0 0 109.666 118.11 L 79.369 109.329 A 2 2 0 0 0 78.812 109.25 L 73.249 109.25 A 2 2 0 0 0 72.303 109.488 L 68.456 111.552 A 2 2 0 0 1 67.51 111.79 L 57.988 111.79 A 2 2 0 0 0 56.619 112.332 L 53.04 115.693 A 2 2 0 0 1 51.671 116.235 L 6.381 116.235 A 2 2 0 0 1 4.381 114.235 L 4.381 100.166 A 2 2 0 0 0 3.299 98.389 L 1.082 97.244 A 2 2 0 0 1 0 95.467 Z M 418.313 95.467 L 418.313 2 A 2 2 0 0 0 416.313 0 L 267.041 0 A 2 2 0 0 0 265.041 2 L 265.041 70.555 A 2 2 0 0 1 264.119 72.24 L 240.227 87.528 A 2 2 0 0 0 239.573 90.212 L 267.865 139.216 A 2 2 0 0 0 270.595 139.949 L 308.206 118.297 A 2 2 0 0 1 308.647 118.11 L 338.943 109.329 A 2 2 0 0 1 339.5 109.25 L 345.064 109.25 A 2 2 0 0 1 346.009 109.488 L 349.857 111.552 A 2 2 0 0 0 350.802 111.79 L 360.324 111.79 A 2 2 0 0 1 361.693 112.332 L 365.272 115.693 A 2 2 0 0 0 366.641 116.235 L 411.931 116.235 A 2 2 0 0 0 413.931 114.235 L 413.931 100.166 A 2 2 0 0 1 415.014 98.389 L 417.23 97.244 A 2 2 0 0 0 418.313 95.467 Z M 3 92.467 L 3 5 A 2 2 0 0 1 5 3 L 148.271 3 A 2 2 0 0 1 150.271 5 L 150.271 73.51 A 2 2 0 0 0 151.252 75.231 L 173.895 88.647 A 2 2 0 0 1 174.608 91.368 L 149.349 135.118 A 2 2 0 0 1 146.619 135.851 L 111.608 115.7 A 2 2 0 0 0 111.165 115.512 L 79.368 106.329 A 2 2 0 0 0 78.813 106.25 L 73.249 106.25 A 2 2 0 0 0 72.303 106.488 L 68.456 108.552 A 2 2 0 0 1 67.51 108.79 L 54.988 108.79 A 2 2 0 0 0 53.619 109.332 L 50.04 112.693 A 2 2 0 0 1 48.671 113.235 L 9.381 113.235 A 2 2 0 0 1 7.381 111.235 L 7.381 97.166 A 2 2 0 0 0 6.299 95.389 L 4.082 94.244 A 2 2 0 0 1 3 92.467 Z M 415.313 92.467 L 415.313 5 A 2 2 0 0 0 413.313 3 L 270.041 3 A 2 2 0 0 0 268.041 5 L 268.041 73.51 A 2 2 0 0 1 267.061 75.231 L 244.417 88.647 A 2 2 0 0 0 243.705 91.368 L 268.964 135.118 A 2 2 0 0 0 271.693 135.851 L 306.705 115.7 A 2 2 0 0 1 307.148 115.512 L 338.944 106.329 A 2 2 0 0 1 339.499 106.25 L 345.064 106.25 A 2 2 0 0 1 346.009 106.488 L 349.857 108.552 A 2 2 0 0 0 350.802 108.79 L 363.324 108.79 A 2 2 0 0 1 364.693 109.332 L 368.272 112.693 A 2 2 0 0 0 369.641 113.235 L 408.931 113.235 A 2 2 0 0 0 410.931 111.235 L 410.931 97.166 A 2 2 0 0 1 412.014 95.389 L 414.23 94.244 A 2 2 0 0 0 415.313 92.467 Z M 414.313 91.467 L 414.313 6 A 2 2 0 0 0 412.313 4 L 271.041 4 A 2 2 0 0 0 269.041 6 L 269.041 74.494 A 2 2 0 0 1 268.039 76.227 L 245.817 89.022 A 2 2 0 0 0 245.083 91.756 L 269.33 133.752 A 2 2 0 0 0 272.059 134.485 L 306.205 114.834 A 2 2 0 0 1 306.648 114.646 L 338.945 105.328 A 2 2 0 0 1 339.499 105.25 L 345.064 105.25 A 2 2 0 0 1 346.009 105.488 L 349.857 107.552 A 2 2 0 0 0 350.802 107.79 L 364.324 107.79 A 2 2 0 0 1 365.693 108.332 L 369.272 111.693 A 2 2 0 0 0 370.641 112.235 L 407.931 112.235 A 2 2 0 0 0 409.931 110.235 L 409.931 96.166 A 2 2 0 0 1 411.014 94.389 L 413.23 93.244 A 2 2 0 0 0 414.313 91.467 Z M 4 91.467 L 4 6 A 2 2 0 0 1 6 4 L 147.271 4 A 2 2 0 0 1 149.271 6 L 149.271 74.494 A 2 2 0 0 0 150.273 76.227 L 172.495 89.022 A 2 2 0 0 1 173.229 91.756 L 148.983 133.752 A 2 2 0 0 1 146.253 134.485 L 112.108 114.834 A 2 2 0 0 0 111.665 114.646 L 79.368 105.328 A 2 2 0 0 0 78.814 105.25 L 73.249 105.25 A 2 2 0 0 0 72.303 105.488 L 68.456 107.552 A 2 2 0 0 1 67.51 107.79 L 53.988 107.79 A 2 2 0 0 0 52.619 108.332 L 49.04 111.693 A 2 2 0 0 1 47.671 112.235 L 10.381 112.235 A 2 2 0 0 1 8.381 110.235 L 8.381 96.166 A 2 2 0 0 0 7.299 94.389 L 5.082 93.244 A 2 2 0 0 1 4 91.467 Z M 96.423 104.39 L 109.946 108.013 L 113.569 94.49 L 100.047 90.867 L 96.423 104.39 Z M 308.367 108.013 L 321.889 104.39 L 318.266 90.867 L 304.743 94.49 L 308.367 108.013 Z M 10.906 29.51 L 24.906 29.51 L 24.906 15.51 L 10.906 15.51 L 10.906 29.51 Z M 10.906 49.06 L 24.906 49.06 L 24.906 35.06 L 10.906 35.06 L 10.906 49.06 Z M 10.906 68.61 L 24.906 68.61 L 24.906 54.61 L 10.906 54.61 L 10.906 68.61 Z M 10.906 88.16 L 24.906 88.16 L 24.906 74.16 L 10.906 74.16 L 10.906 88.16 Z M 10.906 107.71 L 24.906 107.71 L 24.906 93.71 L 10.906 93.71 L 10.906 107.71 Z M 32.996 29.51 L 46.996 29.51 L 46.996 15.51 L 32.996 15.51 L 32.996 29.51 Z M 32.996 49.06 L 46.996 49.06 L 46.996 35.06 L 32.996 35.06 L 32.996 49.06 Z M 32.996 68.61 L 46.996 68.61 L 46.996 54.61 L 32.996 54.61 L 32.996 68.61 Z M 32.996 88.16 L 46.996 88.16 L 46.996 74.16 L 32.996 74.16 L 32.996 88.16 Z M 32.996 107.71 L 46.996 107.71 L 46.996 93.71 L 32.996 93.71 L 32.996 107.71 Z M 52.546 25.065 L 66.546 25.065 L 66.546 11.065 L 52.546 11.065 L 52.546 25.065 Z M 52.546 44.615 L 66.546 44.615 L 66.546 30.615 L 52.546 30.615 L 52.546 44.615 Z M 52.546 64.165 L 66.546 64.165 L 66.546 50.165 L 52.546 50.165 L 52.546 64.165 Z M 52.546 83.715 L 66.546 83.715 L 66.546 69.715 L 52.546 69.715 L 52.546 83.715 Z M 52.546 103.265 L 66.546 103.265 L 66.546 89.265 L 52.546 89.265 L 52.546 103.265 Z M 72.096 22.525 L 86.096 22.525 L 86.096 8.525 L 72.096 8.525 L 72.096 22.525 Z M 72.096 42.075 L 86.096 42.075 L 86.096 28.075 L 72.096 28.075 L 72.096 42.075 Z M 72.096 61.625 L 86.096 61.625 L 86.096 47.625 L 72.096 47.625 L 72.096 61.625 Z M 72.096 81.175 L 86.096 81.175 L 86.096 67.175 L 72.096 67.175 L 72.096 81.175 Z M 72.096 100.725 L 86.096 100.725 L 86.096 86.725 L 72.096 86.725 L 72.096 100.725 Z M 91.646 25.065 L 105.646 25.065 L 105.646 11.065 L 91.646 11.065 L 91.646 25.065 Z M 91.646 44.615 L 105.646 44.615 L 105.646 30.615 L 91.646 30.615 L 91.646 44.615 Z M 91.646 64.165 L 105.646 64.165 L 105.646 50.165 L 91.646 50.165 L 91.646 64.165 Z M 91.646 83.715 L 105.646 83.715 L 105.646 69.715 L 91.646 69.715 L 91.646 83.715 Z M 111.196 26.97 L 125.196 26.97 L 125.196 12.97 L 111.196 12.97 L 111.196 26.97 Z M 111.196 46.52 L 125.196 46.52 L 125.196 32.52 L 111.196 32.52 L 111.196 46.52 Z M 111.196 66.07 L 125.196 66.07 L 125.196 52.07 L 111.196 52.07 L 111.196 66.07 Z M 111.196 85.62 L 125.196 85.62 L 125.196 71.62 L 111.196 71.62 L 111.196 85.62 Z M 130.746 36.495 L 144.746 36.495 L 144.746 22.495 L 130.746 22.495 L 130.746 36.495 Z M 130.746 61.125 L 144.746 61.125 L 144.746 47.125 L 130.746 47.125 L 130.746 61.125 Z M 393.406 29.51 L 407.406 29.51 L 407.406 15.51 L 393.406 15.51 L 393.406 29.51 Z M 393.406 49.06 L 407.406 49.06 L 407.406 35.06 L 393.406 35.06 L 393.406 49.06 Z M 393.406 68.61 L 407.406 68.61 L 407.406 54.61 L 393.406 54.61 L 393.406 68.61 Z M 393.406 88.16 L 407.406 88.16 L 407.406 74.16 L 393.406 74.16 L 393.406 88.16 Z M 393.406 107.71 L 407.406 107.71 L 407.406 93.71 L 393.406 93.71 L 393.406 107.71 Z M 371.316 29.51 L 385.316 29.51 L 385.316 15.51 L 371.316 15.51 L 371.316 29.51 Z M 371.316 49.06 L 385.316 49.06 L 385.316 35.06 L 371.316 35.06 L 371.316 49.06 Z M 371.316 68.61 L 385.316 68.61 L 385.316 54.61 L 371.316 54.61 L 371.316 68.61 Z M 371.316 88.16 L 385.316 88.16 L 385.316 74.16 L 371.316 74.16 L 371.316 88.16 Z M 371.316 107.71 L 385.316 107.71 L 385.316 93.71 L 371.316 93.71 L 371.316 107.71 Z M 351.766 25.065 L 365.766 25.065 L 365.766 11.065 L 351.766 11.065 L 351.766 25.065 Z M 351.766 44.615 L 365.766 44.615 L 365.766 30.615 L 351.766 30.615 L 351.766 44.615 Z M 351.766 64.165 L 365.766 64.165 L 365.766 50.165 L 351.766 50.165 L 351.766 64.165 Z M 351.766 83.715 L 365.766 83.715 L 365.766 69.715 L 351.766 69.715 L 351.766 83.715 Z M 351.766 103.265 L 365.766 103.265 L 365.766 89.265 L 351.766 89.265 L 351.766 103.265 Z M 332.216 22.525 L 346.216 22.525 L 346.216 8.525 L 332.216 8.525 L 332.216 22.525 Z M 332.216 42.075 L 346.216 42.075 L 346.216 28.075 L 332.216 28.075 L 332.216 42.075 Z M 332.216 61.625 L 346.216 61.625 L 346.216 47.625 L 332.216 47.625 L 332.216 61.625 Z M 332.216 81.175 L 346.216 81.175 L 346.216 67.175 L 332.216 67.175 L 332.216 81.175 Z M 332.216 100.725 L 346.216 100.725 L 346.216 86.725 L 332.216 86.725 L 332.216 100.725 Z M 312.666 25.065 L 326.666 25.065 L 326.666 11.065 L 312.666 11.065 L 312.666 25.065 Z M 312.666 44.615 L 326.666 44.615 L 326.666 30.615 L 312.666 30.615 L 312.666 44.615 Z M 312.666 64.165 L 326.666 64.165 L 326.666 50.165 L 312.666 50.165 L 312.666 64.165 Z M 312.666 83.715 L 326.666 83.715 L 326.666 69.715 L 312.666 69.715 L 312.666 83.715 Z M 293.116 26.97 L 307.116 26.97 L 307.116 12.97 L 293.116 12.97 L 293.116 26.97 Z M 293.116 46.52 L 307.116 46.52 L 307.116 32.52 L 293.116 32.52 L 293.116 46.52 Z M 293.116 66.07 L 307.116 66.07 L 307.116 52.07 L 293.116 52.07 L 293.116 66.07 Z M 293.116 85.62 L 307.116 85.62 L 307.116 71.62 L 293.116 71.62 L 293.116 85.62 Z M 273.566 36.495 L 287.566 36.495 L 287.566 22.495 L 273.566 22.495 L 273.566 36.495 Z M 273.566 61.125 L 287.566 61.125 L 287.566 47.125 L 273.566 47.125 L 273.566 61.125 Z M 119.594 108.432 L 131.718 115.432 L 138.718 103.308 L 126.594 96.308 L 119.594 108.432 Z M 131.994 87.027 L 144.118 94.027 L 151.118 81.903 L 138.994 74.903 L 131.994 87.027 Z M 148.925 96.802 L 161.049 103.802 L 168.049 91.678 L 155.925 84.678 L 148.925 96.802 Z M 136.585 118.176 L 148.709 125.176 L 155.709 113.051 L 143.585 106.051 L 136.585 118.176 Z M 286.594 115.432 L 298.718 108.432 L 291.718 96.308 L 279.594 103.308 L 286.594 115.432 Z M 274.194 94.027 L 286.318 87.027 L 279.318 74.903 L 267.194 81.903 L 274.194 94.027 Z M 257.263 103.802 L 269.388 96.802 L 262.388 84.678 L 250.263 91.678 L 257.263 103.802 Z M 269.603 125.176 L 281.728 118.176 L 274.728 106.051 L 262.603 113.051 L 269.603 125.176 Z M 39.996 8.985 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 135.333 39.314 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 29.431 89.885 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 120.196 93.145 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 378.316 8.985 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 282.979 39.314 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 388.881 89.885 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z M 298.116 93.145 m -2 0 a 2 2 0 0 1 4 0 a 2 2 0 0 1 -4 0 z" fill="none" stroke="#c7d0dd" stroke-width="0.35"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="keys">
+<g class="key has-l1 mod-key" transform="rotate(0.00 17.91 22.51)">
+<title>RC(0,0) · L0: kp ESC · L1: bt BT_CLR</title>
+<rect x="6.59" y="13.46" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="7.44" y="14.31" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="17.91" y="22.86" text-anchor="middle" font-size="4.15" font-weight="650" fill="#162033">Esc</text>
+<text class="l1-label long" x="17.91" y="27.86" text-anchor="middle" font-size="2.25" font-weight="650" fill="#2563eb">BT Clr</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 40.00 22.51)">
+<title>RC(0,1) · L0: kp N1 · L1: kp F1</title>
+<rect x="30.95" y="13.46" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="31.80" y="14.31" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="40.00" y="18.36" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">!</text>
+<text class="l0-label" x="40.00" y="23.06" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">1</text>
+<text class="l1-label" x="40.00" y="27.86" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F1</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 59.55 18.07)">
+<title>RC(0,2) · L0: kp N2 · L1: kp F2</title>
+<rect x="50.50" y="9.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="51.35" y="9.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="59.55" y="13.92" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">@</text>
+<text class="l0-label" x="59.55" y="18.62" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">2</text>
+<text class="l1-label" x="59.55" y="23.41" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F2</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 79.10 15.53)">
+<title>RC(0,3) · L0: kp N3 · L1: kp F3</title>
+<rect x="70.05" y="6.47" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="70.90" y="7.32" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="79.10" y="11.38" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">#</text>
+<text class="l0-label" x="79.10" y="16.07" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">3</text>
+<text class="l1-label" x="79.10" y="20.88" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F3</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 98.65 18.07)">
+<title>RC(0,4) · L0: kp N4 · L1: kp F4</title>
+<rect x="89.60" y="9.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="90.45" y="9.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="98.65" y="13.92" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">$</text>
+<text class="l0-label" x="98.65" y="18.62" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">4</text>
+<text class="l1-label" x="98.65" y="23.41" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F4</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 118.20 19.97)">
+<title>RC(0,5) · L0: kp N5 · L1: kp F5</title>
+<rect x="109.15" y="10.92" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="110.00" y="11.77" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="118.20" y="15.82" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">%</text>
+<text class="l0-label" x="118.20" y="20.52" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">5</text>
+<text class="l1-label" x="118.20" y="25.32" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F5</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 137.75 29.50)">
+<title>RC(0,6) · L0: kp EQUAL · L1: kp F11</title>
+<rect x="128.70" y="20.45" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="129.55" y="21.30" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="137.75" y="25.34" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">+</text>
+<text class="l0-label" x="137.75" y="30.05" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">=</text>
+<text class="l1-label" x="137.75" y="34.84" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F11</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 280.57 29.50)">
+<title>RC(0,7) · L0: kp MINUS · L1: kp F12</title>
+<rect x="271.52" y="20.45" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="272.37" y="21.30" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="280.57" y="25.34" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">_</text>
+<text class="l0-label" x="280.57" y="30.05" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">-</text>
+<text class="l1-label" x="280.57" y="34.84" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F12</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 300.12 19.97)">
+<title>RC(0,8) · L0: kp N6 · L1: kp F6</title>
+<rect x="291.07" y="10.92" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="291.92" y="11.77" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="300.12" y="15.82" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">^</text>
+<text class="l0-label" x="300.12" y="20.52" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">6</text>
+<text class="l1-label" x="300.12" y="25.32" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F6</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 319.67 18.07)">
+<title>RC(0,9) · L0: kp N7 · L1: kp F7</title>
+<rect x="310.62" y="9.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="311.47" y="9.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="319.67" y="13.92" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">&amp;</text>
+<text class="l0-label" x="319.67" y="18.62" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">7</text>
+<text class="l1-label" x="319.67" y="23.41" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F7</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 339.22 15.53)">
+<title>RC(0,10) · L0: kp N8 · L1: kp F8</title>
+<rect x="330.17" y="6.47" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="331.02" y="7.32" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="339.22" y="11.38" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">*</text>
+<text class="l0-label" x="339.22" y="16.07" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">8</text>
+<text class="l1-label" x="339.22" y="20.88" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F8</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 358.77 18.07)">
+<title>RC(0,11) · L0: kp N9 · L1: kp F9</title>
+<rect x="349.72" y="9.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="350.57" y="9.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="358.77" y="13.92" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">(</text>
+<text class="l0-label" x="358.77" y="18.62" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">9</text>
+<text class="l1-label" x="358.77" y="23.41" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F9</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 378.32 22.51)">
+<title>RC(0,12) · L0: kp N0 · L1: kp F10</title>
+<rect x="369.27" y="13.46" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="370.12" y="14.31" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="378.32" y="18.36" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">)</text>
+<text class="l0-label" x="378.32" y="23.06" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">0</text>
+<text class="l1-label" x="378.32" y="27.86" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">F10</text>
+</g>
+<g class="key has-l1 mod-key" transform="rotate(0.00 400.41 22.51)">
+<title>RC(0,13) · L0: kp BSPC · L1: kp DEL</title>
+<rect x="389.09" y="13.46" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="389.94" y="14.31" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="400.41" y="22.86" text-anchor="middle" font-size="3.65" font-weight="650" fill="#162033">Bspc</text>
+<text class="l1-label" x="400.41" y="27.86" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">Del</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 17.91 42.06)">
+<title>RC(1,0) · L0: kp GRAVE · L1: trans</title>
+<rect x="6.59" y="33.01" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="7.44" y="33.86" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="17.91" y="37.91" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">~</text>
+<text class="l0-label" x="17.91" y="42.61" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">`</text>
+<text class="trans-mark" x="17.91" y="44.16" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 40.00 42.06)">
+<title>RC(1,1) · L0: kp Q · L1: trans</title>
+<rect x="30.95" y="33.01" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="31.80" y="33.86" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="40.00" y="43.46" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">Q</text>
+<text class="trans-mark" x="40.00" y="44.16" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 59.55 37.62)">
+<title>RC(1,2) · L0: kp W · L1: trans</title>
+<rect x="50.50" y="28.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="51.35" y="29.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="59.55" y="39.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">W</text>
+<text class="trans-mark" x="59.55" y="39.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 79.10 35.08)">
+<title>RC(1,3) · L0: kp E · L1: trans</title>
+<rect x="70.05" y="26.03" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="70.90" y="26.88" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="79.10" y="36.48" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">E</text>
+<text class="trans-mark" x="79.10" y="37.18" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 98.65 37.62)">
+<title>RC(1,4) · L0: kp R · L1: trans</title>
+<rect x="89.60" y="28.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="90.45" y="29.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="98.65" y="39.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">R</text>
+<text class="trans-mark" x="98.65" y="39.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 118.20 39.52)">
+<title>RC(1,5) · L0: kp T · L1: out OUT_TOG</title>
+<rect x="109.15" y="30.47" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="110.00" y="31.32" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="118.20" y="39.87" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">T</text>
+<text class="l1-label long" x="118.20" y="44.87" text-anchor="middle" font-size="2.25" font-weight="650" fill="#2563eb">OutTog</text>
+</g>
+<g class="key has-l1 mod-key" transform="rotate(0.00 137.75 54.12)">
+<title>RC(1,6) · L0: kp HOME · L1: out OUT_USB</title>
+<rect x="128.70" y="40.55" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="129.55" y="41.40" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="137.75" y="52.92" text-anchor="middle" font-size="4.599" font-weight="650" fill="#162033">Home</text>
+<text class="l1-label" x="137.75" y="59.73" text-anchor="middle" font-size="3.6" font-weight="650" fill="#2563eb">USB</text>
+</g>
+<g class="key has-l1 mod-key" transform="rotate(0.00 280.57 54.12)">
+<title>RC(1,7) · L0: kp END · L1: out OUT_BLE</title>
+<rect x="271.52" y="40.55" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="272.37" y="41.40" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="280.57" y="52.92" text-anchor="middle" font-size="5.229" font-weight="650" fill="#162033">End</text>
+<text class="l1-label" x="280.57" y="59.73" text-anchor="middle" font-size="3.6" font-weight="650" fill="#2563eb">BLE</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 300.12 39.52)">
+<title>RC(1,8) · L0: kp Y · L1: trans</title>
+<rect x="291.07" y="30.47" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="291.92" y="31.32" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="300.12" y="40.92" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">Y</text>
+<text class="trans-mark" x="300.12" y="41.62" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 319.67 37.62)">
+<title>RC(1,9) · L0: kp U · L1: trans</title>
+<rect x="310.62" y="28.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="311.47" y="29.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="319.67" y="39.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">U</text>
+<text class="trans-mark" x="319.67" y="39.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 339.22 35.08)">
+<title>RC(1,10) · L0: kp I · L1: trans</title>
+<rect x="330.17" y="26.03" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="331.02" y="26.88" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="339.22" y="36.48" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">I</text>
+<text class="trans-mark" x="339.22" y="37.18" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 358.77 37.62)">
+<title>RC(1,11) · L0: kp O · L1: trans</title>
+<rect x="349.72" y="28.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="350.57" y="29.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="358.77" y="39.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">O</text>
+<text class="trans-mark" x="358.77" y="39.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 378.32 42.06)">
+<title>RC(1,12) · L0: kp P · L1: trans</title>
+<rect x="369.27" y="33.01" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="370.12" y="33.86" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="378.32" y="43.46" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">P</text>
+<text class="trans-mark" x="378.32" y="44.16" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 400.41 42.06)">
+<title>RC(1,13) · L0: kp SQT · L1: trans</title>
+<rect x="389.09" y="33.01" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="389.94" y="33.86" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="400.41" y="37.91" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">"</text>
+<text class="l0-label" x="400.41" y="42.61" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">'</text>
+<text class="trans-mark" x="400.41" y="44.16" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 17.91 61.61)">
+<title>RC(2,0) · L0: kp TAB · L1: trans</title>
+<rect x="6.59" y="52.56" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="7.44" y="53.41" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="17.91" y="63.01" text-anchor="middle" font-size="4.15" font-weight="650" fill="#162033">Tab</text>
+<text class="trans-mark" x="17.91" y="63.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 40.00 61.61)">
+<title>RC(2,1) · L0: kp A · L1: trans</title>
+<rect x="30.95" y="52.56" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="31.80" y="53.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="40.00" y="63.01" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">A</text>
+<text class="trans-mark" x="40.00" y="63.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 59.55 57.16)">
+<title>RC(2,2) · L0: kp S · L1: trans</title>
+<rect x="50.50" y="48.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="51.35" y="48.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="59.55" y="58.56" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">S</text>
+<text class="trans-mark" x="59.55" y="59.27" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 79.10 54.62)">
+<title>RC(2,3) · L0: kp D · L1: trans</title>
+<rect x="70.05" y="45.58" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="70.90" y="46.42" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="79.10" y="56.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">D</text>
+<text class="trans-mark" x="79.10" y="56.73" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 98.65 57.16)">
+<title>RC(2,4) · L0: kp F · L1: trans</title>
+<rect x="89.60" y="48.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="90.45" y="48.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="98.65" y="58.56" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">F</text>
+<text class="trans-mark" x="98.65" y="59.27" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 118.20 59.07)">
+<title>RC(2,5) · L0: kp G · L1: trans</title>
+<rect x="109.15" y="50.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="110.00" y="50.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="118.20" y="60.47" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">G</text>
+<text class="trans-mark" x="118.20" y="61.17" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(30.00 141.56 84.47)">
+<title>RC(2,6) · L0: kp LEFT · L1: trans</title>
+<rect x="132.51" y="75.42" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="133.36" y="76.27" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="141.56" y="85.87" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">←</text>
+<text class="trans-mark" x="141.56" y="86.56" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(-30.00 276.76 84.47)">
+<title>RC(2,7) · L0: kp RBKT · L1: trans</title>
+<rect x="267.71" y="75.42" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="268.56" y="76.27" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="276.76" y="80.31" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">}</text>
+<text class="l0-label" x="276.76" y="85.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">]</text>
+<text class="trans-mark" x="276.76" y="86.56" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 300.12 59.07)">
+<title>RC(2,8) · L0: kp H · L1: kp LEFT</title>
+<rect x="291.07" y="50.02" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="291.92" y="50.87" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="300.12" y="59.42" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">H</text>
+<text class="l1-label" x="300.12" y="64.42" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">←</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 319.67 57.16)">
+<title>RC(2,9) · L0: kp J · L1: kp DOWN</title>
+<rect x="310.62" y="48.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="311.47" y="48.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="319.67" y="57.52" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">J</text>
+<text class="l1-label" x="319.67" y="62.52" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">↓</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 339.22 54.62)">
+<title>RC(2,10) · L0: kp K · L1: kp UP</title>
+<rect x="330.17" y="45.58" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="331.02" y="46.42" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="339.22" y="54.98" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">K</text>
+<text class="l1-label" x="339.22" y="59.98" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">↑</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 358.77 57.16)">
+<title>RC(2,11) · L0: kp L · L1: kp RIGHT</title>
+<rect x="349.72" y="48.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="350.57" y="48.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="358.77" y="57.52" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">L</text>
+<text class="l1-label" x="358.77" y="62.52" text-anchor="middle" font-size="3" font-weight="650" fill="#2563eb">→</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 378.32 61.61)">
+<title>RC(2,12) · L0: kp SEMI · L1: trans</title>
+<rect x="369.27" y="52.56" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="370.12" y="53.41" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="378.32" y="57.46" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">:</text>
+<text class="l0-label" x="378.32" y="62.16" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">;</text>
+<text class="trans-mark" x="378.32" y="63.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 400.41 61.61)">
+<title>RC(2,13) · L0: kp RET · L1: trans</title>
+<rect x="389.09" y="52.56" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="389.94" y="53.41" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="400.41" y="63.01" text-anchor="middle" font-size="3.15" font-weight="650" fill="#162033">Enter</text>
+<text class="trans-mark" x="400.41" y="63.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 17.91 81.16)">
+<title>RC(3,0) · L0: kp LSHFT · L1: trans</title>
+<rect x="6.59" y="72.11" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="7.44" y="72.96" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="17.91" y="82.56" text-anchor="middle" font-size="3.15" font-weight="650" fill="#162033">Shift</text>
+<text class="trans-mark" x="17.91" y="83.26" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 40.00 81.16)">
+<title>RC(3,1) · L0: kp Z · L1: trans</title>
+<rect x="30.95" y="72.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="31.80" y="72.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="40.00" y="82.56" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">Z</text>
+<text class="trans-mark" x="40.00" y="83.26" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 59.55 76.72)">
+<title>RC(3,2) · L0: kp X · L1: trans</title>
+<rect x="50.50" y="67.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="51.35" y="68.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="59.55" y="78.12" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">X</text>
+<text class="trans-mark" x="59.55" y="78.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 79.10 74.17)">
+<title>RC(3,3) · L0: kp C · L1: trans</title>
+<rect x="70.05" y="65.12" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="70.90" y="65.97" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="79.10" y="75.58" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">C</text>
+<text class="trans-mark" x="79.10" y="76.27" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 98.65 76.72)">
+<title>RC(3,4) · L0: kp V · L1: trans</title>
+<rect x="89.60" y="67.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="90.45" y="68.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="98.65" y="78.12" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">V</text>
+<text class="trans-mark" x="98.65" y="78.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 118.20 78.62)">
+<title>RC(3,5) · L0: kp B · L1: trans</title>
+<rect x="109.15" y="69.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="110.00" y="70.42" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="118.20" y="80.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">B</text>
+<text class="trans-mark" x="118.20" y="80.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(30.00 158.49 94.24)">
+<title>RC(3,6) · L0: kp RIGHT · L1: trans</title>
+<rect x="149.44" y="85.19" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="150.29" y="86.04" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="158.49" y="95.64" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">→</text>
+<text class="trans-mark" x="158.49" y="96.34" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(-30.00 259.83 94.24)">
+<title>RC(3,7) · L0: kp LBKT · L1: trans</title>
+<rect x="250.78" y="85.19" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="251.63" y="86.04" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="259.83" y="90.09" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">{</text>
+<text class="l0-label" x="259.83" y="94.79" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">[</text>
+<text class="trans-mark" x="259.83" y="96.34" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 300.12 78.62)">
+<title>RC(3,8) · L0: kp N · L1: trans</title>
+<rect x="291.07" y="69.57" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="291.92" y="70.42" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="300.12" y="80.02" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">N</text>
+<text class="trans-mark" x="300.12" y="80.72" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 319.67 76.72)">
+<title>RC(3,9) · L0: kp M · L1: kp PG_DN</title>
+<rect x="310.62" y="67.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="311.47" y="68.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="319.67" y="77.06" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">M</text>
+<text class="l1-label" x="319.67" y="82.06" text-anchor="middle" font-size="2.75" font-weight="650" fill="#2563eb">PgDn</text>
+</g>
+<g class="key has-l1 alpha-key" transform="rotate(0.00 339.22 74.17)">
+<title>RC(3,10) · L0: kp COMMA · L1: kp PG_UP</title>
+<rect x="330.17" y="65.12" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="331.02" y="65.97" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="339.22" y="70.02" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">&lt;</text>
+<text class="l0-label" x="339.22" y="74.72" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">,</text>
+<text class="l1-label" x="339.22" y="79.52" text-anchor="middle" font-size="2.75" font-weight="650" fill="#2563eb">PgUp</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 358.77 76.72)">
+<title>RC(3,11) · L0: kp DOT · L1: trans</title>
+<rect x="349.72" y="67.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="350.57" y="68.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="358.77" y="72.56" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">&gt;</text>
+<text class="l0-label" x="358.77" y="77.27" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">.</text>
+<text class="trans-mark" x="358.77" y="78.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 378.32 81.16)">
+<title>RC(3,12) · L0: kp FSLH · L1: trans</title>
+<rect x="369.27" y="72.11" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="370.12" y="72.96" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="378.32" y="77.01" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">?</text>
+<text class="l0-label" x="378.32" y="81.71" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">/</text>
+<text class="trans-mark" x="378.32" y="83.26" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 400.41 81.16)">
+<title>RC(3,13) · L0: kp RSHFT · L1: trans</title>
+<rect x="389.09" y="72.11" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="389.94" y="72.96" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="400.41" y="82.56" text-anchor="middle" font-size="3.15" font-weight="650" fill="#162033">Shift</text>
+<text class="trans-mark" x="400.41" y="83.26" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 17.91 100.71)">
+<title>RC(4,0) · L0: kp LCTRL · L1: trans</title>
+<rect x="8.86" y="91.66" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="9.71" y="92.51" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="17.91" y="102.11" text-anchor="middle" font-size="3.65" font-weight="650" fill="#162033">Ctrl</text>
+<text class="trans-mark" x="17.91" y="102.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 40.00 100.71)">
+<title>RC(4,1) · L0: kp LGUI · L1: trans</title>
+<rect x="30.95" y="91.66" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="31.80" y="92.51" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="40.00" y="102.11" text-anchor="middle" font-size="4.15" font-weight="650" fill="#162033">GUI</text>
+<text class="trans-mark" x="40.00" y="102.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 59.55 96.27)">
+<title>RC(4,2) · L0: kp CAPS · L1: trans</title>
+<rect x="50.50" y="87.22" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="51.35" y="88.06" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="59.55" y="97.67" text-anchor="middle" font-size="3.65" font-weight="650" fill="#162033">Caps</text>
+<text class="trans-mark" x="59.55" y="98.36" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key alpha-key" transform="rotate(0.00 79.10 93.72)">
+<title>RC(4,3) · L0: kp BSLH · L1: trans</title>
+<rect x="70.05" y="84.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#ffffff" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="70.90" y="85.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="shift-label" x="79.10" y="89.57" text-anchor="middle" font-size="2.55" font-weight="600" fill="#64748b">|</text>
+<text class="l0-label" x="79.10" y="94.27" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">\</text>
+<text class="trans-mark" x="79.10" y="95.82" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(15.00 105.00 99.44)">
+<title>RC(4,4) · L0: kp LALT · L1: trans</title>
+<rect x="93.68" y="90.39" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="94.53" y="91.24" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="105.00" y="100.84" text-anchor="middle" font-size="4.15" font-weight="650" fill="#162033">Alt</text>
+<text class="trans-mark" x="105.00" y="101.54" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key fn-key" transform="rotate(30.00 129.16 105.87)">
+<title>RC(4,5) · L0: mo 1 · L1: trans</title>
+<rect x="120.11" y="92.30" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#fff7ed" stroke="#d97706" stroke-width="0.75"/>
+<rect x="120.96" y="93.15" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="129.16" y="107.57" text-anchor="middle" font-size="5.25" font-weight="650" fill="#162033">Fn</text>
+<text class="trans-mark" x="129.16" y="107.97" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(30.00 146.15 115.61)">
+<title>RC(4,6) · L0: kp RET · L1: trans</title>
+<rect x="137.10" y="102.04" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="137.95" y="102.89" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="alias-label" x="146.15" y="114.61" text-anchor="middle" font-size="7.4" font-weight="700" fill="#162033" font-family="'Noto Sans CJK SC','Source Han Sans SC','Microsoft YaHei',sans-serif">雷霆</text>
+<text class="actual-label" x="146.15" y="121.61" text-anchor="middle" font-size="3.25" font-weight="600" fill="#94a3b8">Enter</text>
+<text class="trans-mark" x="146.15" y="117.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(-30.00 272.17 115.61)">
+<title>RC(4,7) · L0: kp BSPC · L1: trans</title>
+<rect x="263.12" y="102.04" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="263.97" y="102.89" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="alias-label" x="272.17" y="114.61" text-anchor="middle" font-size="7.4" font-weight="700" fill="#162033" font-family="'Noto Sans CJK SC','Source Han Sans SC','Microsoft YaHei',sans-serif">毁灭</text>
+<text class="actual-label" x="272.17" y="121.61" text-anchor="middle" font-size="3.25" font-weight="600" fill="#94a3b8">Bspc</text>
+<text class="trans-mark" x="272.17" y="117.71" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(-30.00 289.16 105.87)">
+<title>RC(4,8) · L0: kp SPACE · L1: trans</title>
+<rect x="280.11" y="92.30" width="18.10" height="27.15" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="280.96" y="93.15" width="16.40" height="25.45" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="289.16" y="107.57" text-anchor="middle" font-size="3.969" font-weight="650" fill="#162033">Space</text>
+<text class="trans-mark" x="289.16" y="107.97" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key mod-key" transform="rotate(-15.00 313.32 99.44)">
+<title>RC(4,9) · L0: kp RGUI · L1: trans</title>
+<rect x="302.00" y="90.39" width="22.62" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="302.85" y="91.24" width="20.93" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="313.32" y="100.84" text-anchor="middle" font-size="4.15" font-weight="650" fill="#162033">GUI</text>
+<text class="trans-mark" x="313.32" y="101.54" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key fn-key" transform="rotate(0.00 339.22 93.72)">
+<title>RC(4,10) · L0: mo 1 · L1: trans</title>
+<rect x="330.17" y="84.67" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#fff7ed" stroke="#d97706" stroke-width="0.75"/>
+<rect x="331.02" y="85.52" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="339.22" y="95.12" text-anchor="middle" font-size="4.55" font-weight="650" fill="#162033">Fn</text>
+<text class="trans-mark" x="339.22" y="95.82" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+<g class="key has-l1 mod-key" transform="rotate(0.00 358.77 96.27)">
+<title>RC(4,11) · L0: kp DOWN · L1: kp C_VOLUME_DOWN</title>
+<rect x="349.72" y="87.22" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="350.57" y="88.06" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="358.77" y="96.61" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">↓</text>
+<text class="l1-label" x="358.77" y="101.61" text-anchor="middle" font-size="2.75" font-weight="650" fill="#2563eb">Vol-</text>
+</g>
+<g class="key has-l1 mod-key" transform="rotate(0.00 378.32 100.71)">
+<title>RC(4,12) · L0: kp UP · L1: kp C_VOLUME_UP</title>
+<rect x="369.27" y="91.66" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="370.12" y="92.51" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="378.32" y="101.06" text-anchor="middle" font-size="4.9" font-weight="650" fill="#162033">↑</text>
+<text class="l1-label" x="378.32" y="106.06" text-anchor="middle" font-size="2.75" font-weight="650" fill="#2563eb">Vol+</text>
+</g>
+<g class="key mod-key" transform="rotate(0.00 400.41 100.71)">
+<title>RC(4,13) · L0: kp RCTRL · L1: trans</title>
+<rect x="391.36" y="91.66" width="18.10" height="18.10" rx="2.6" ry="2.6" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.45"/>
+<rect x="392.21" y="92.51" width="16.40" height="16.40" rx="2.1" ry="2.1" fill="none" stroke="#ffffff" stroke-width="0.35" opacity="0.9"/>
+<text class="l0-label" x="400.41" y="102.11" text-anchor="middle" font-size="3.65" font-weight="650" fill="#162033">Ctrl</text>
+<text class="trans-mark" x="400.41" y="102.81" text-anchor="middle" font-size="5.6" font-weight="600" fill="#94a3b8" opacity="0.8">·</text>
+</g>
+  </g>
+
+  <g id="features">
+<g class="mounting-hole"><circle cx="40.00" cy="8.98" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="38.70" y1="8.98" x2="41.30" y2="8.98" stroke="#0f766e" stroke-width="0.3"/><line x1="40.00" y1="7.68" x2="40.00" y2="10.29" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="135.33" cy="39.31" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="134.03" y1="39.31" x2="136.63" y2="39.31" stroke="#0f766e" stroke-width="0.3"/><line x1="135.33" y1="38.01" x2="135.33" y2="40.61" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="29.43" cy="89.89" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="28.13" y1="89.89" x2="30.73" y2="89.89" stroke="#0f766e" stroke-width="0.3"/><line x1="29.43" y1="88.59" x2="29.43" y2="91.19" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="120.20" cy="93.14" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="118.90" y1="93.14" x2="121.50" y2="93.14" stroke="#0f766e" stroke-width="0.3"/><line x1="120.20" y1="91.84" x2="120.20" y2="94.44" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="378.32" cy="8.98" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="377.02" y1="8.98" x2="379.62" y2="8.98" stroke="#0f766e" stroke-width="0.3"/><line x1="378.32" y1="7.68" x2="378.32" y2="10.29" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="282.98" cy="39.31" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="281.68" y1="39.31" x2="284.28" y2="39.31" stroke="#0f766e" stroke-width="0.3"/><line x1="282.98" y1="38.01" x2="282.98" y2="40.61" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="388.88" cy="89.89" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="387.58" y1="89.89" x2="390.18" y2="89.89" stroke="#0f766e" stroke-width="0.3"/><line x1="388.88" y1="88.59" x2="388.88" y2="91.19" stroke="#0f766e" stroke-width="0.3"/></g>
+<g class="mounting-hole"><circle cx="298.12" cy="93.14" r="2.05" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/><line x1="296.82" y1="93.14" x2="299.42" y2="93.14" stroke="#0f766e" stroke-width="0.3"/><line x1="298.12" y1="91.84" x2="298.12" y2="94.44" stroke="#0f766e" stroke-width="0.3"/></g>
+  </g>
+
+  <g id="annotations">
+<g class="legend" transform="translate(166.0 0)">
+<text x="43" y="13.2" text-anchor="middle" font-size="8.6" font-weight="700" fill="#0f172a">JKeyboard</text>
+<text x="43" y="20.8" text-anchor="middle" font-size="2.95" font-weight="500" fill="#64748b">ZMK · split 5×7 + thumb cluster</text>
+<text x="43" y="25.2" text-anchor="middle" font-size="2.95" font-weight="500" fill="#64748b">70 keys · 2 layers</text>
+<line x1="3" y1="29.5" x2="83" y2="29.5" stroke="#dbe3ed" stroke-width="0.35"/>
+<rect x="0.5" y="32.3" width="10" height="6.2" rx="1.2" fill="#eef3f9" stroke="#8b98ab" stroke-width="0.35"/>
+<text x="5.5" y="36.6" text-anchor="middle" font-size="3.4" font-weight="650" fill="#162033">A</text>
+<text x="13" y="36.7" font-size="3.0" font-weight="550" fill="#334155">Layer 0 — default</text>
+<rect x="0.5" y="40.2" width="10" height="6.2" rx="1.2" fill="#ffffff" stroke="#2563eb" stroke-width="0.55"/>
+<text x="5.5" y="44.5" text-anchor="middle" font-size="3.1" font-weight="650" fill="#2563eb">F1</text>
+<text x="13" y="44.6" font-size="3.0" font-weight="550" fill="#334155">Layer 1 — hold Fn</text>
+<circle cx="5" cy="50.2" r="1.35" fill="#94a3b8"/>
+<text x="13" y="51.5" font-size="2.8" fill="#475569">transparent on layer 1</text>
+<line x1="3" y1="55.8" x2="83" y2="55.8" stroke="#dbe3ed" stroke-width="0.35"/>
+<rect x="0.8" y="59.2" width="9.4" height="6" rx="1.2" fill="#fff7ed" stroke="#d97706" stroke-width="0.65"/>
+<text x="5.5" y="63.4" text-anchor="middle" font-size="2.9" font-weight="650" fill="#b45309">Fn</text>
+<text x="13" y="63.4" font-size="2.7" fill="#475569">momentary layer 1</text>
+<circle cx="5.5" cy="70.4" r="2" fill="#ffffff" stroke="#0f766e" stroke-width="0.55"/>
+<line x1="4.2" y1="70.4" x2="6.8" y2="70.4" stroke="#0f766e" stroke-width="0.3"/>
+<line x1="5.5" y1="69.1" x2="5.5" y2="71.7" stroke="#0f766e" stroke-width="0.3"/>
+<text x="13" y="71.4" font-size="2.7" fill="#475569">4 mm mounting hole (×8)</text>
+<text x="0" y="78.6" font-size="2.4" fill="#64748b">board 418.3 × 140.2 mm · cut-outs 14 × 14 mm</text>
+<text x="0" y="82.6" font-size="2.4" fill="#64748b">matrix 5 × 14 · outline from ergogen</text>
+<text x="0" y="86.6" font-size="2.4" fill="#64748b">keycaps 1.25u outer · 1.5u inner</text>
+</g>
+  </g>
+</svg>
